@@ -7,12 +7,13 @@ public class ConsolePrint : MonoBehaviour
 {
     private string nameOfGameObject;
     private int i;
+
+    public Renderer rend;
     // Start is called before the first frame update
     void Start()
     {
         nameOfGameObject = gameObject.name;
         i = 3;
-        Debug.Log(i + "Hello");
     }
 
     // Update is called once per frame
